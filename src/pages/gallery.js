@@ -42,7 +42,7 @@ export const query = graphql`
 `
 
 const GalleryPage = ({ data }) => {
-  const [isModalOpen, setIsModalOpen] = useState(true)
+  const [isModalOpen, setIsModalOpen] = useState(false)
   const [selectedImage, setSelectedImage] = useState(0)
 
   const {
